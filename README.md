@@ -10,7 +10,17 @@ Multiplicar dois números inteiros parece uma tarefa simples quando consideramos
 
 Karatsuba resolve esse problema a partir do método de divisão e conquista. Divide-se ambos números pela metade para então serem resolvidos de forma recursiva, combinando os resultados ao final.
 
+### Como executar
+
+Este código não possuí dependências, basta rodar o script da seguinte maneira:
+
+```
+python main.py
+```
+
 ### Explicação linha a linha
+
+Ao ser executado, o script vai pedir para que o usuário digite os números a serem multiplicados e executará a implementação do algoritmo de Karatsuba.
 
 ```python
     if len(str(x)) <= 3 or len(str(y)) <= 3:
